@@ -1,0 +1,383 @@
+/************************************************************************************
+imagen fondo
+*************************************************************************************/
+
+body {
+  /* Location of the image */
+  background-image:url(../images/background-photo.jpg);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+	
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(images/background-photo-mobile-devices.jpg);
+	padding:10px 10px 50px 10px;
+  }
+	}
+
+
+
+@media screen and (max-width : 1024px){
+
+	.mobil{
+		display:block;
+		margin:0 auto 20px 50px;
+		text-align:center;
+	}
+	
+	.mobil ul{
+		display:inline-block;
+	}
+	
+	.mobil-menu li {
+		height: 50px !important;
+		width: 50px !important;
+		margin-right:20px;
+	}
+	
+	.mobil-menu li a {
+		height: 50px !important;
+		width: 50px !important;
+	}
+	
+	.navieras{
+		display:none;
+	}
+
+}
+
+
+
+/************************************************************************************
+media 760px
+*************************************************************************************/
+
+
+@media screen and (max-width : 768px){
+	
+	header {
+		width:auto;
+	}
+	
+	/*Make dropdown links appear inline*/
+	ul {
+		position: static;
+		display: none;
+		padding:0;
+	}
+	
+	/*Create vertical spacing*/
+	li {
+		padding:0;
+	}
+	
+	/*Make all menu links full width*/
+	ul li, li a {
+		height:18px;
+		width: 100%;
+		text-align:center;
+		margin-top:1px;
+		padding:0;
+	}
+	
+	/*Display 'show menu' link*/
+	.show-menu {
+		width:50%;
+		display:block;
+		margin:0 auto !important;
+	}
+	
+	.pleca {
+		display: none;
+	}
+
+	.logo{
+		width:100% !important;
+		margin:0 !important;
+	}
+	
+	.menu{
+		width:100%;
+		height:37px;
+		margin:0 0 10px 0 !important;
+		padding:10px 0 0 0 !important;
+	}
+
+	.logo img {	
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.intro{
+		position: relative;
+    	display: block;
+		padding:0 15px 0 15px;
+	}
+	
+	.tex-intro{
+		font-size:0.625;
+		line-height:1.375em;
+		margin-top:0.625em;
+	}
+
+	.foto-destino{
+		width:100%;
+		margin: 0 0 0 0 !important;
+	}
+
+	.caja_destino{
+		position:relative;
+		width: 355px;
+		float: left;
+		margin: 0 10px 10px 0;
+	}
+
+	.caja_destino2{
+		position:relative;
+		width: 355px;
+		float: left;
+		margin: 0 0 10px 0;	
+	}
+	
+	.tex_destino{
+		width:100%;
+		margin-top: 30%;
+		margin-left: 60%;
+		position:absolute;
+		vertical-align: text-bottom;
+	}
+	
+	.tit-destino{
+		font-size:18px;
+		line-height:20px;
+		text-align:left;
+		margin:0 0 0 0 !important;
+	}
+	
+	.tit-destino2{
+		font-size:18px;
+		line-height:20px;
+		text-align:left;
+		margin:0 0 0 0 !important;
+	}
+	
+	.subtit-destino{
+		font-size:14px;
+		line-height:20px;
+		text-align:left;
+		margin:0 0 0 0 !important;
+	}
+	
+	.subtit-destino2{
+		font-size:14px;
+		line-height:20px;
+		text-align:left;
+		margin:0 0 0 0 !important;
+	}
+	
+	iframe{
+		height:200px;
+	}
+	
+	.empresa, .lugares, .interactua{
+		display:none;
+	}
+	
+	.newsletter{
+		margin-top:0;
+	}
+	
+	.container{
+		max-width:none !important;
+	}
+	
+	.navieras{
+		display:none;
+	}
+	
+	.mobil{
+		display:block;
+		margin:0 auto 20px 50px;
+		text-align:center;
+	}
+	
+	.mobil ul{
+		display:inline-block;
+	}
+	
+	.mobil-menu li {
+		height: 50px !important;
+		width: 50px !important;
+		margin-right:20px;
+	}
+	
+	.mobil-menu li a {
+		height: 50px !important;
+		width: 50px !important;
+	}
+	
+	
+	#slider{
+		margin-bottom:25px;
+	}
+	
+
+}
+
+
+/************************************************************************************
+media 340px
+*************************************************************************************/
+
+
+@media only screen and (max-width: 320px) {
+  
+  .container {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+	background-color:#ffffff;
+  }
+  
+  #more-content {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  body h1 {
+    font-size: 1.125em;
+    line-height: 1.25em;
+  } 
+  
+  header {
+	width:auto;
+  }
+  
+  .content {
+	position:relative;
+	width:100%;
+    display: block;
+    margin:0 auto 0 auto;
+  }
+
+  .button {
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  html, body, .container {
+    height: auto;
+  }
+  
+  .intro{
+	  position: relative;
+	  display: block;
+	  padding:0 10px 0 10px;
+  }
+	
+  .tex-intro{
+		font-size:0.75em;
+		line-height:1.375em;
+		margin-top:0.625em;
+	
+  }
+  
+  .flujo{
+		display:flex;
+		flex-direction:column;
+  }
+
+  .foto-destino{
+		width:100%;
+		margin: 0 0 0 0 !important;
+  }
+
+  .caja_destino{
+		position:relative;
+		width:100%;
+		margin: 0 0 10px 0 !important;
+  }
+
+  .caja_destino2{
+	position:relative;
+	width:100%;
+	margin: 0 0 10px 0 !important;
+  }
+
+  .tex_destino{
+	width:100%;
+	margin-top: 28%;
+	margin-left: 50%;
+	position:absolute;
+	vertical-align: text-bottom;
+  }
+
+  .tit-destino{
+	font-size:15px;
+	line-height:16px;
+	text-align:left;
+	margin:0 0 0 0 !important;
+  }
+
+  .tit-destino2{
+	font-size:15px;
+	line-height:16px;
+	text-align:left;
+	margin:0 0 0 0 !important;
+  }
+
+  .subtit-destino{
+	font-size:13px;
+	line-height:16px;
+	text-align:left;
+	margin:0 0 0 0 !important;
+  }
+
+  .subtit-destino2{
+	font-size:13px;
+	line-height:16px;
+	text-align:left;
+	margin:0 0 0 0 !important;
+  }
+
+  .newsletter{
+	margin-top:20px;
+  }
+
+  .mobil{
+	margin:0 0 10px;
+  }
+
+  .mobil-menu li {
+	margin:0 0 0 10px;
+  }
+
+}

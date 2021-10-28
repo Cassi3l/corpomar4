@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+    <title>Corpomar v.2</title>
+    <meta name="Designer" content="Lic. German Ramos Rosas">
+    <meta name="robots" content="noindex,nofollow,noarchive,noodp,nosnippet">
+    <link rel="shortcut icon" href="images/corpomar.ico" />
+    
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Not required: presentational-only.css only contains CSS for prettifying the demo -->
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+  
+	<link rel="stylesheet" href="css/media-queries.css" type="text/css" />
+	<link rel="stylesheet" href="css/menu_navieras.css" type="text/css" />
+	<link rel="shortcut icon" href="images/corpomar.ico" />
+</head>
+
+<body>
+
+<!-- Caption Style -->
+    <style> 
+        .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+
+    </style>
+    <!-- it works the same with all jquery version from 1.x to 2.x -->
+    <script type="text/javascript" src="slider/js/jquery-1.9.1.min.js"></script>
+    <!-- use jssor.slider.mini.js (40KB) instead for release -->
+    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="slider/js/jssor.js"></script>
+    <script type="text/javascript" src="slider/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="slider/js/slider.js"></script>
+    
+
+  <!-- contenedor principal -->
+  <div class="container">
+	<div class="navieras">
+		<ul class="cbp-vimenu">
+			<li><a href="http://www.ncl.com/" class="icon-nrw"></a></li>
+			<li><a href="https://www.oceaniacruises.com/" class="icon-oce"></a></li>
+			<li><a href="http://www.rssc.com/" class="icon-reg"></a></li>
+			<li><a href="http://www.amawaterways.com/" class="icon-ama"></a></li>
+			<li><a href="http://www.seadream.com/" class="icon-sea"></a></li>
+			<li><a href="http://www.vikingrivercruises.com/" class="icon-vik"></a></li>
+			<li><a href="http://www.emeraldwaterways.com/" class="icon-eme"></a></li>
+			<li><a href="http://www.scenictours.com/" class="icon-sce"></a></li>
+		</ul>
+	</div>
+  
+  	<!-- contenido -->
+	<section class="content">
+    
+    <!-- header -->
+    <header>
+		<div class="logo">
+        	<a href="#"><img src="images/lg_corpomar.png" /></a>
+        </div>
+        <div class="menu">
+        	<label for="show-menu" class="show-menu">Mostrar Menu</label>
+	<input id="show-menu" role="button" type="checkbox">
+				<ul id="menu">
+					<li><a href="#">inicio</a></li><!--
+					--><li class="pleca">|</li><!--
+					--><li><a href="#">quienes somos</a></li><!--
+					--><li class="pleca">|</li><!--
+					--><li><a href="#">promocionales</a></li><!--
+					--><li class="pleca">|</li><!--
+					--><li><a href="#">agentes de viajes</a></li><!--
+					--><li class="pleca">|</li><!--
+					--><li><a href="#">corpomar select</a></li><!--
+					--><li class="pleca">|</li><!--
+					--><li><a href="#">aviso de privacidad</a></li><!--
+					--><li class="pleca">|</li><!--
+					--><li><a href="#">contacto</a></li>
+				</ul>                
+        </div>
+    </header>
+    
+    <!-- header -->
+
+    <div id="slider">
+        	<!-- Jssor Slider Begin -->
+    <!-- You can move inline styles to css file or css block. --> 
+    <div id="slider1_container" style="position: relative; width: 960px; height: 440px; overflow: hidden;">
+ 
+        <!-- Loading Screen --> 
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000; top: 0px; left: 0px;width: 100%; height:100%;"> 
+            </div> 
+            <div style="position: absolute; display: block; background: url(slider/images/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div> 
+        </div> 
+ 
+        <!-- Slides Container --> 
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 960px; height: 440px;
+            overflow: hidden;">
+            <div>
+                <img u="image" src="slider/images/slider01.jpg" />
+                <div u=caption t="CLIP|LR" du="1500" class="captionOrange"  style="position:absolute; left:20px; top: 300px; width:520px; height:30px;"> 
+                Disfrute sus vacaciones perfectas viajando en un crucero
+                </div>
+            </div>
+            <div> 
+                <img u="image" src="slider/images/slider02.jpg" />
+                <div u="caption" t="T|IB" t2="R" d=600 class=captionOrange style="position: absolute; top: 220px; left: 720px; width: 160px;
+                    height: 120px; line-height: 30px;">
+                    Descubra<br>lugares que<br>se quedaran<br>en su recuerdo
+                </div>
+            </div>
+            <div> 
+                <img u="image" src="slider/images/slider03.jpg" />
+                <div u=caption t="L" d=-450 class="captionOrange"  style="position:absolute; left:20px; top: 300px; width:90px; height:30px;"> 
+                Disfrute
+                </div>
+                <div u=caption t="CLIP|L" t2=B d=-450 class="captionBlack"  style="position:absolute; left:120px; top: 300px; width:70px; height:30px;"> 
+                la vida
+                </div>
+                <div u=caption t="DDG|TR" t2="TORTUOUS|VB" d=-750 class="captionOrange"  style="position:absolute; left:200px; top: 300px; width:230px; height:30px;"> 
+                divirtiendose en grande
+                </div> 
+            </div>
+            <div>
+                <img u="image" src="slider/images/slider04.jpg" />
+                <div u=caption t="RTTS|T" d=-300 t2="B" class=captionOrange style="position:absolute; left:20px; top: 330px; width:490px; height:30px;"> 
+                Lanzate a la aventura descubriendo lugares exoticos
+                </div>
+            </div>
+
+            <!-- Example to add fixed static share buttons in slider BEGIN -->
+            <!-- Remove it if no need -->
+            <!-- Share Button Styles -->
+            <style>
+                .share-icon {
+                    display: inline-block;
+                    float: left;
+                    margin: 4px;
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                    background-image: url(slider/images/share-icons.png);
+                }
+
+                .share-facebook {
+                    background-position: 0px 0px;
+                }
+
+                    .share-facebook:hover {
+                        background-position: 0px -40px;
+                    }
+
+        .share-twitter {
+            background-position: -40px 0px;
+        }
+
+            .share-twitter:hover {
+                background-position: -40px -40px;
+            }
+
+        .share-youtube {
+            background-position: -200px 0px;
+        }
+
+            .share-youtube:hover {
+                background-position: -200px -40px;
+            }    
+            </style>
+
+            <div u="any" style="position: absolute; display: block; top: 6px; right: 16px; width: 150px; height: 40px; z-index: 10;">
+
+                <a class="share-icon share-facebook" target="_blank" href="https://www.facebook.com/Corpomar" title="Share on Facebook"></a>
+                <a class="share-icon share-twitter" target="_blank" href="https://twitter.com/Corpomar1" title="Share on Twitter"></a>
+                <a class="share-icon share-youtube" target="_blank" href="https://www.youtube.com/user/cruisemeter" title="Share on You Tube"></a>
+               
+            </div>
+            <!-- Example to add fixed static share buttons in slider END -->
+        </div> 
+
+        <!-- Arrow Navigator Skin Begin -->
+        <style>
+            /* jssor slider arrow navigator skin 20 css */
+            /*
+            .jssora20l              (normal)
+            .jssora20r              (normal)
+            .jssora20l:hover        (normal mouseover)
+            .jssora20r:hover        (normal mouseover)
+            .jssora20ldn            (mousedown)
+            .jssora20rdn            (mousedown)
+            */
+            .jssora20l, .jssora20r, .jssora20ldn, .jssora20rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(slider/images/a20.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssora20l { background-position: -3px -33px; }
+            .jssora20r { background-position: -63px -33px; }
+            .jssora20l:hover { background-position: -123px -33px; }
+            .jssora20r:hover { background-position: -183px -33px; }
+            .jssora20ldn { background-position: -243px -33px; }
+            .jssora20rdn { background-position: -303px -33px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora20l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora20r" style="width: 55px; height: 55px; top: 123px; right: 8px">
+        </span>
+        
+    </div> 
+    <!-- Jssor Slider End -->
+    </div>
+        
+	<div class="mobil">
+		<ul class="mobil-menu">
+			<li><a href="http://www.ncl.com/" class="icon-nrw2"></a></li>
+			<li><a href="https://www.oceaniacruises.com/" class="icon-oce2"></a></li>
+			<li><a href="http://www.rssc.com/" class="icon-reg2"></a></li>
+			<li><a href="http://www.amawaterways.com/" class="icon-ama2"></a></li>
+			<li><a href="http://www.seadream.com/" class="icon-sea2"></a></li>
+			<li><a href="http://www.vikingrivercruises.com/" class="icon-vik2"></a></li>
+			<li><a href="http://www.emeraldwaterways.com/" class="icon-eme2"></a></li>
+			<li><a href="http://www.scenictours.com/" class="icon-sce2"></a></li>
+		</ul>
+	</div>
+        
+	<div class="intro">
+		<h1>Bienvenidos al mundo de Corpomar</h1>
+		<p class="tex-intro">Corporación Marítima Internacional S.A. de C.V. (Corpomar), representa para la República Mexicana a algunas de las líneas de cruceros de más prestigio en el mundo. Cada linea esta dirigida a un segmento diferente del mercado y tiene personalidad, servicios y ambiente distintos. Estamos seguros que entre nuestras lineas, encontrara el crucero ideal, el crucero que hará de su viaje, un sueño hecho realidad.</p>
+	</div>
+	<div class="destinos">
+		<div class="intro2">
+        	<h1>Destinos</h1>
+        </div>
+        <div class="flujo">
+        	<a href="#">
+        	<div class="caja_destino">
+        		<div class="tex_destino">
+            		<p class="tit-destino">Sudamérica</p>
+                	<p class="subtit-destino">Macchu Picchu, Perú</p>
+            	</div>
+        		<div class="foto-destino">
+        			<img src="images/destino01.jpg" />
+        		</div>
+            </div>
+            </a>
+            <a href="#">
+            <div class="caja_destino2">
+        		<div class="tex_destino">
+            		<p class="tit-destino">Hawaii</p>
+                	<p class="subtit-destino">Costa de Kahuai</p>
+            	</div>
+	            <div class="foto-destino">
+        			<img src="images/destino02.jpg" />
+        		</div>
+            </div>  
+            </a>
+			<a href="#">                  
+            <div class="caja_destino">
+        		<div class="tex_destino">
+            		<p class="tit-destino2">Caribe</p>
+                	<p class="subtit-destino2">Nassau, Bahamas</p>
+            	</div>
+	            <div class="foto-destino">
+        			<img src="images/destino03.jpg" />
+        		</div>
+            </div>
+            </a>
+            <a href="#">
+            <div class="caja_destino2">
+        		<div class="tex_destino">
+            		<p class="tit-destino">Europa</p>
+                	<p class="subtit-destino">Amsterdam, Holanda</p>
+            	</div>
+	            <div class="foto-destino">
+        			<img src="images/destino04.jpg" />
+        		</div>
+            </div>
+            </a>
+        </div>
+	</div> 
+          
+	<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.413152753143!2d-99.17375300000002!3d19.394546999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff71f1415bad%3A0x19bc941038debe4b!2sCorporaci%C3%B3n+Mar%C3%ADtima+Internacional%2C+S.A.+De+C.V.!5e0!3m2!1ses-419!2smx!4v1429639595967" frameborder="0" style="border:0"></iframe>
+	</div> 
+	<footer>
+    	<div class="empresa">
+			<p>acerca de corpomar</p>
+			<p><a href="#">quienes somos</a></p>
+			<p><a href="#">contacto</a></p>
+			<p><a href="#">preguntas frecuentes</a></p>
+			<p><a href="#">aviso de privacidad</a></p>
+		</div>
+		<div class="lugares">
+			<p>destinos</p>
+			<p><a href="#">america</a></p>
+            <p><a href="#">caribe</a></p>
+			<p><a href="#">europa</a></p>
+			<p><a href="#">asia</a></p>
+			<p><a href="#">africa</a></p>
+		</div>
+        <div class="interactua">
+            <p>folletos en linea</p>
+            <p><a href="#">norwegian cruise line</a></p>
+            <p><a href="#">oceania cruises</a></p>
+            <p><a href="#">regent seven seas cruises</a></p>
+            <p><a href="#">ama waterways</a></p>
+            <p><a href="#">sea dream</a></p>
+            <p><a href="#">viking river cruises</a></p>
+            <p><a href="#">emerald waterways</a></p>
+            <p><a href="#">scenic cruises</a></p>        
+        </div>
+        <div class="redes">
+            <p>contactanos</p>
+            <a href="https://www.facebook.com/Corpomar"><img src="images/icon_fb.png"/></a>
+            <a href="https://twitter.com/Corpomar1"><img src="images/icon_tw.png"/></a>
+            <a href="https://www.youtube.com/user/cruisemeter"><img src="images/icon_yt.png"/></a>
+        </div>
+        <div class="newsletter">
+            <p><a href="http://corpomar.us6.list-manage1.com/subscribe?u=fd250d596a175fd367d59680c&id=b4d627fffb">suscribete a nuestro newsletter</a></p>
+        </div>
+	</footer>
+	</section>
+	</div>
+</body>
+</html>
